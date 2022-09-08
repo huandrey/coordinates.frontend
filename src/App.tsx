@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, useRoutes } from 'react-router-dom';
 import './App.css';
-import { Home } from './src/pages/Home';
-import { School } from './src/pages/School';
+import { Home } from './pages/Home';
+import { School } from './pages/School';
 
 const App = () => {
   let routes = useRoutes([

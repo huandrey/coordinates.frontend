@@ -64,7 +64,7 @@ export const School = (props: any) => {
             <Description>{school?.longitude || "Não informado."}</Description>
           </Row>
         </Content>
-        { !(school?.longitude || school?.longitude) && <Button onClick={putLocationToSchool}>Atualizar coordenadas</Button> }
+        <Button onClick={putLocationToSchool}>Atualizar coordenadas</Button>
       </Container>
     </Wrapper>
   )
